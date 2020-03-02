@@ -1,9 +1,9 @@
 require('dotenv/config');
-require('sequelize');
 
 module.exports = {
   dialect: 'postgres',
-  host: 'ec2-52-207-93-32.compute-1.amazonaws.com',
+  protocol: 'postgres',
+  host: process.env.DB_HOST,
   username: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
@@ -13,7 +13,6 @@ module.exports = {
     underscored: true,
     underscoredAll: true,
   },
-  protocol: 'postgres',
   dialectOptions: {
     ssl: true,
   },
