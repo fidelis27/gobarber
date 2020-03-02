@@ -4,14 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start":"node src/server.js",
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js",
     "queue": "nodemon src/queue.js"
-  },
-  "engines": {
-    "node": "12.3.1",
-    "npm": "6.9.0",
-    "yarn": "1.16.0"
   },
   "dependencies": {
     "@sentry/node": "5.9.0",
