@@ -1,0 +1,12 @@
+{
+  "production": {
+    "username": "leeyfoaeenfvww",
+    "password": "208aab2e61de01980c5379babad01ab20646771f1257b35edd3c9872f5de1670",
+    "database": "da7fra8hukocld",
+    "host": "ec2-52-207-93-32.compute-1.amazonaws.com",
+    "dialect":"postgres",
+    "protocol":"postgres",
+    "port": 5432,
+    "use_env_variable": "postgres://leeyfoaeenfvww:208aab2e61de01980c5379babad01ab20646771f1257b35edd3c9872f5de1670@ec2-52-207-93-32.compute-1.amazonaws.com:5432/da7fra8hukocld"
+    }
+}
