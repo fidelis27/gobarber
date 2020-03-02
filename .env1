@@ -1,19 +1,19 @@
-APP_URL=http://localhost:3001
-NODE_ENV=development
+APP_URL=http://localhost:3333
+NODE_ENV=production
 
 #auth
 APP_SECRET=bootcampgobarber
 
 # Database
 
-DB_HOST=localhost
-DB_USER=postgres
-DB_PASS=docker
-DB_NAME=gobarber
+DB_HOST=ec2-52-207-93-32.compute-1.amazonaws.com
+DB_USER=leeyfoaeenfvww
+DB_PASS=208aab2e61de01980c5379babad01ab20646771f1257b35edd3c9872f5de1670
+DB_NAME=da7fra8hukocld
 
 # MONGO
 
-MONGO_URL='mongodb://localhost:27017/gobarber'
+MONGO_URL=mongodb+srv://thiago:thiago27@cluster0-6lenz.mongodb.net/gobarber
 
 # REDIS
 
@@ -23,8 +23,8 @@ REDIS_PORT=6379
 #MAIL
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
-MAIL_USER=76d48d257357f2
-MAIL_PASS=81627439f940c8
+MAIL_USER=
+MAIL_PASS=
 
 
 #SENTRY
