@@ -1,1 +1,1 @@
-web: node src/index.js
+web: node ./build/server.js & node ./build/queue.js
