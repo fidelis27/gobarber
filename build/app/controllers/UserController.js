@@ -3,6 +3,11 @@ var _User = require('../models/User'); var _User2 = _interopRequireDefault(_User
 var _File = require('../models/File'); var _File2 = _interopRequireDefault(_File);
 
 class UserController {
+  async index(req, res) {
+    const users = await _User2.default.findAll();
+    return res.json(users);
+  }
+
   async store(req, res) {
     const schema = Yup.object().shape({
       name: Yup.string().required(),
